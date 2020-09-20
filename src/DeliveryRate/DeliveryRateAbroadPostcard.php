@@ -7,7 +7,7 @@ use Psr\Cache\InvalidArgumentException;
 
 class DeliveryRateAbroadPostcard extends DeliveryRateAbstract {
     public function __construct(?CacheItemPoolInterface $cache) {
-        $this->countries = json_decode(file_get_contents('./src/data/countries-CountriesCombo.json'), true);
+        $this->countries = json_decode(file_get_contents(dirname(__DIR__).'/data/countries-CountriesCombo.json'), true);
 
         parent::__construct($cache);
     }
