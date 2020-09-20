@@ -30,6 +30,6 @@
         }
     },
     "scripts": {
-        "test": "phpunit tests"
+        "test": "phpunit tests --filter=DeliveryRateAbroadEMSTest"
     }
 }

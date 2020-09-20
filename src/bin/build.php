@@ -14,3 +14,6 @@ file_put_contents($file, iconv('windows-1255', 'utf8', $response->getBody()));
 
 $countries = $reader->countries($file, '#CountriesCombo');
 file_put_contents('./src/data/countries-CountriesCombo.json', json_encode($countries));
+
+$countries = $reader->countries($file, '#CountriesComboEMS');
+file_put_contents('./src/data/countries-CountriesComboEMS.json', json_encode($countries));

@@ -36,5 +36,4 @@ class DeliveryRateAbroadPostcardTest extends TestCase {
         $this->assertGreaterThan(0, $rate);
         $this->assertGreaterThan($rate, $rateX2);
     }
-
 }

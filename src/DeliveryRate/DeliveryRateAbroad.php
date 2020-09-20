@@ -32,4 +32,12 @@ class DeliveryRateAbroad {
     public function postcard(): DeliveryRateAbroadPostcard {
         return new DeliveryRateAbroadPostcard($this->cache);
     }
+
+    /**
+     * עיתון
+     * @return DeliveryRateAbroadEMS
+     */
+    public function ems(): DeliveryRateAbroadEMS {
+        return new DeliveryRateAbroadEMS($this->cache);
+    }
 }
