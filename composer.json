@@ -1,6 +1,6 @@
 {
     "name": "stajor/israel-post",
-    "description": "descri",
+    "description": "PHP API for Israel Post service",
     "type": "library",
     "license": "MIT",
     "authors": [
